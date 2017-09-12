@@ -1,0 +1,309 @@
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  height: 1.38889rem;
+  padding: 0 0.37037rem;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 2.59259rem;
+  height: 0.68519rem;
+}
+
+.header .head-r {
+  background: none;
+  border: none;
+  color: #ffa900;
+  font-size: 0.37037rem;
+  text-align: center;
+  color: #ff9d00;
+}
+
+.header .head-r a {
+  color: #ff9d00;
+  font-size: 0.41667rem;
+}
+
+.header .head-r a span {
+  padding-left: 0.27778rem;
+  padding-right: 0.27778rem;
+  color: #ddd;
+}
+
+.header .head-r a .iconfont {
+  font-size: 0.55556rem;
+  padding: 0.18519rem 0rem;
+}
+
+.time {
+  text-align: center;
+  padding-bottom: 0.55556rem;
+}
+
+.time a {
+  display: flex;
+  padding: 0.46296rem 2.77778rem 0.18519rem 2.59259rem;
+  color: #008489;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.38889rem;
+  font-weight: bold;
+}
+
+.time a .time-b {
+  font-size: 0.74074rem;
+  padding-top: 0.18519rem;
+}
+
+.time .time-d {
+  font-size: 1.01852rem;
+  color: #008489;
+  font-weight: bold;
+}
+
+.imgtop {
+  position: relative;
+}
+
+.imgtop img {
+  width: 100%;
+  height: 4.62963rem;
+}
+
+.imgtop .imgtop-a {
+  position: absolute;
+  bottom: 70px;
+  left: 50px;
+  width: 100%;
+  color: #fff;
+  font-size: 0.64815rem;
+  font-weight: bold;
+}
+
+.imgtop .imgtop-b {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+
+.imgtop .imgtop-b .iconfont {
+  color: #ddd;
+  font-size: 0.69444rem;
+  margin-left: 0.46296rem;
+}
+
+.wenzitop {
+  display: flex;
+  padding: 0.46296rem;
+  border-bottom: 1px solid #999;
+}
+
+.wenzitop img {
+  width: 1.57407rem;
+  height: 1.52778rem;
+  border-radius: 0.92593rem;
+}
+
+.wenzitop .wenzitop-a h2 {
+  padding: 0.18519rem;
+  font-size: 0.41667rem;
+  color: #696969;
+}
+
+.wenzitop .wenzitop-a h2 > span {
+  color: #ff9d00;
+  padding: 0.02778rem 0.18519rem;
+  margin-left: 0.18519rem;
+  border: 2px solid #ff9d00;
+  border-radius: 0.09259rem;
+}
+
+.wenzitop .wenzitop-a h3 {
+  color: #999;
+}
+
+.wenzitop .wenzitop-a h3 .iconfont {
+  font-size: 0.37037rem;
+}
+
+.wenzitop .wenzitop-a span {
+  font-size: 0.27778rem;
+}
+
+.wenzitop .wenzitop-b {
+  padding-top: 0.27778rem;
+  padding-left: 0.46296rem;
+}
+
+.wenzitop .wenzitop-b span {
+  font-size: 0.74074rem;
+  padding-left: 0.46296rem;
+  border-left: 1px solid #999;
+}
+
+.listtop {
+  padding: 0rem 0.46296rem;
+}
+
+.listtop ul li {
+  float: left;
+  width: 50%;
+}
+
+.listtop ul li .iconfont {
+  font-size: 0.55556rem;
+}
+
+.mao {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-left: 0.74074rem;
+}
+
+.mao img {
+  width: 1.66667rem;
+  height: 1.48148rem;
+  padding-right: 0.18519rem;
+}
+
+.mao h2 {
+  font-size: 0.55556rem;
+  padding-top: 0.37037rem;
+}
+
+.wenzhang {
+  display: flex;
+  padding: 0.92593rem 0.37037rem 0.37037rem 0.37037rem;
+  width: 100%;
+  height: 100%;
+}
+
+.wenzhang p {
+  font-size: 0.46296rem;
+  line-height: 0.74074rem;
+}
+
+.imgwz {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.imgwz img {
+  display: flex;
+  width: 100%;
+  height: 7.96296rem;
+  padding: 0.37037rem;
+}
+
+.imgwz .imgshadow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 0.92593rem;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), white);
+  width: 100%;
+  padding: 0.37037rem;
+}
+
+.jixu {
+  width: 100%;
+  height: 1.85185rem;
+  text-align: center;
+}
+
+.jixu a {
+  font-size: 0.41667rem;
+  color: #62c78c;
+  margin: 0 auto;
+  line-height: 1.85185rem;
+}
+
+.huise {
+  width: 100%;
+  height: 0.46296rem;
+  background: #f2f1f1;
+}
+
+.xiangguan {
+  display: flex;
+  width: 100%;
+  height: 1.85185rem;
+  padding-left: 0.37037rem;
+  padding-top: 0.37037rem;
+}
+
+.xiangguan i {
+  padding: 0.09259rem 0.05556rem;
+  height: 1.11111rem;
+  background: #ffe127;
+  margin-right: 0.13889rem;
+}
+
+.xiangguan span {
+  width: 1.85185rem;
+  height: 0.74074rem;
+  padding: 0.09259rem 0.37037rem;
+  line-height: 0.74074rem;
+  background: #ffe127;
+  font-size: 0.41667rem;
+}
+
+.dibu {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+  border-bottom: 1px solid #999;
+}
+
+.dibu .leftimg {
+  padding-left: 0.37037rem;
+}
+
+.dibu .leftimg img {
+  width: 3.7037rem;
+  height: 2.77778rem;
+}
+
+.dibu .wenzi {
+  padding: 0rem 0.46296rem 0.46296rem;
+}
+
+.dibu .wenzi .wenzi-t {
+  font-size: 0.46296rem;
+  font-weight: bold;
+  line-height: 0.64815rem;
+  padding-bottom: 0.83333rem;
+}
+
+.dibu .wenzi .wenzi-b {
+  display: flex;
+  justify-content: space-between;
+  height: 0.74074rem;
+  padding-top: 0.55556rem;
+}
+
+.dibu .wenzi .wenzi-b .dibu-a {
+  margin-top: 0.18519rem;
+}
+
+.dibu .wenzi .wenzi-b .dibu-a .iconfont {
+  font-size: 0.37037rem;
+}
+
+.dibu .wenzi .wenzi-b .dibu-b {
+  border: 2px solid #202020;
+  text-align: center;
+  padding: 0.18519rem;
+  border-radius: 0.27778rem;
+}

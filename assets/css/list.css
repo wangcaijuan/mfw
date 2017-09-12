@@ -1,0 +1,196 @@
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  height: 1.38889rem;
+  padding: 0 0.37037rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 2.96296rem;
+  height: 0.87037rem;
+}
+
+.header .head-r {
+  background: none;
+  border: none;
+  color: #ffa900;
+  font-size: 0.37037rem;
+  text-align: center;
+  color: #ff9d00;
+}
+
+.header .head-r a {
+  color: #ff9d00;
+  font-size: 0.41667rem;
+}
+
+.header .head-r a span {
+  padding-left: 0.27778rem;
+  padding-right: 0.27778rem;
+  color: #ddd;
+}
+
+.header .head-r a .iconfont {
+  font-size: 0.55556rem;
+  padding: 0.18519rem 0rem;
+}
+
+.lunbo {
+  width: 100%;
+  height: 11.78704rem;
+  background: #309296;
+  padding-top: 0.55556rem;
+}
+
+.lunbo .time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 0rem 0.27778rem;
+  padding-bottom: 0.74074rem;
+}
+
+.lunbo .time .time-l {
+  height: 0.55556rem;
+  font-size: 0.69444rem;
+}
+
+.lunbo .time .time-r {
+  width: 2.31481rem;
+  height: 0.92593rem;
+  border: 1px solid #333;
+  border-radius: 0.46296rem;
+  text-align: center;
+  line-height: 0.92593rem;
+  background: #111;
+}
+
+.lunbo .time .time-r .iconfont {
+  font-size: 0.46296rem;
+}
+
+.lunbo .imgbig {
+  display: flex;
+  align-content: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  color: #fff;
+}
+
+.lunbo .imgbig .imgbig-a {
+  padding-left: 0.37037rem;
+}
+
+.lunbo .imgbig .imgbig-a ul {
+  border-radius: 0.18519rem;
+}
+
+.lunbo .imgbig .imgbig-a ul li img {
+  width: 9.25926rem;
+  height: 5.72222rem;
+  vertical-align: middle;
+  border-radius: 0.18519rem;
+}
+
+.lunbo .imgbig .imgbig-b {
+  width: 9.25926rem;
+  height: 2.5rem;
+  background: #fff;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 0.37037rem;
+  color: black;
+  line-height: 0.92593rem;
+  border-radius: 0.18519rem;
+}
+
+.lunbo .imgbig .imgbig-b h2 {
+  font-size: 0.60185rem;
+  margin-top: 0.27778rem;
+}
+
+.lunbo .imgbig .imgbig-b h3 {
+  font-size: 0.46296rem;
+  color: #474747;
+}
+
+.lunbo .imgbig .imgbig-b h3 span {
+  color: #ff9d00;
+}
+
+.lunbo .imgsmall {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.27778rem 1.01852rem;
+}
+
+.lunbo .imgsmall .item img {
+  width: 1.46296rem;
+  height: 1.46296rem;
+  border-radius: 0.18519rem;
+}
+
+.lunbo .imgsmall .item img:hover {
+  border: 5px solid white;
+}
+
+.wenzhang {
+  display: flex;
+  width: 100%;
+  padding-top: 0.55556rem;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.wenzhang .wenzi {
+  padding: 0rem 0.46296rem 0.46296rem;
+}
+
+.wenzhang .wenzi .wenzi-t {
+  font-size: 0.46296rem;
+  font-weight: bold;
+  line-height: 0.64815rem;
+  padding-bottom: 0.83333rem;
+}
+
+.wenzhang .wenzi .wenzi-b {
+  border-bottom: 1px solid #999;
+  color: #999;
+}
+
+.wenzhang .wenzi .wenzi-b h2 {
+  font-size: 0.37037rem;
+  padding-bottom: 0.23148rem;
+}
+
+.wenzhang .wenzi .wenzi-b h2 img {
+  font-size: 0.18519rem;
+  border-radius: 0.46296rem;
+  vertical-align: middle;
+}
+
+.wenzhang .wenzi .wenzi-b h2 span {
+  color: #ff9d00;
+}
+
+.wenzhang .wenzi .wenzi-b h3 {
+  font-size: 0.37037rem;
+  padding-bottom: 0.37037rem;
+}
+
+.wenzhang .wenzi .wenzi-b .iconfont {
+  font-size: 0.37037rem;
+}
+
+.wenzhang .leftimg img {
+  width: 5.0463rem;
+  height: 3.37963rem;
+}

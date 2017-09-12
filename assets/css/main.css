@@ -1,0 +1,251 @@
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  height: 1.38889rem;
+  padding: 0 0.27778rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 2.12963rem;
+  height: 0.59259rem;
+}
+
+.header input {
+  border: none;
+  width: 5.97222rem;
+  height: 0.64815rem;
+  background-color: #f3f3f3;
+  border-radius: 0.46296rem;
+  font-size: 0.27778rem;
+}
+
+.header button {
+  background: none;
+  border: none;
+  color: #ffa900;
+  font-size: 0.37037rem;
+}
+
+.lunbo {
+  position: relative;
+  height: 4.21296rem;
+}
+
+.lunbo img {
+  width: 100%;
+  height: 4.21296rem;
+}
+
+.lunbo ul li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.lunbo ul li:nth-child(1) {
+  display: block;
+}
+
+.lunbo ol {
+  position: absolute;
+  top: 140px;
+  left: 120px;
+  display: flex;
+}
+
+.lunbo ol li {
+  width: 1.11111rem;
+  height: 0.18519rem;
+  background: pink;
+  margin-right: 2px;
+}
+
+.list {
+  display: flex;
+  width: 100%;
+  height: 4.35185rem;
+}
+
+.list ul li {
+  width: 2.22222rem;
+  height: 2.22222rem;
+  float: left;
+  margin-bottom: 0.27778rem;
+}
+
+.list ul li i {
+  width: 1.15741rem;
+  height: 1.15741rem;
+  display: inline-block;
+  background: url(/assets/images/jlt.png) no-repeat;
+  background-size: 4.62963rem;
+  margin-bottom: 0.27778rem;
+}
+
+.list ul li a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 0.37037rem;
+}
+
+.list ul li .jlt1 {
+  color: #ff9d00;
+}
+
+.list ul li .jlt1 i {
+  background-position: 0 0;
+}
+
+.list ul li .jlt2 {
+  color: #ffca27;
+}
+
+.list ul li .jlt2 i {
+  background-position: 0px -124px;
+}
+
+.list ul li .jlt3 {
+  color: #42d5b8;
+}
+
+.list ul li .jlt3 i {
+  background-position: -248px -124px;
+}
+
+.list ul li .jlt4 {
+  color: #f24e86;
+}
+
+.list ul li .jlt4 i {
+  background-position: -124px -124px;
+}
+
+.list ul li .jlt5 {
+  color: #34a3ef;
+}
+
+.list ul li .jlt5 i {
+  background-position: -124px 0px;
+}
+
+.list ul li .jlt6 {
+  color: #f7514e;
+}
+
+.list ul li .jlt6 i {
+  background-position: -248px 0px;
+}
+
+.list ul li .jlt7 {
+  color: #bad447;
+}
+
+.list ul li .jlt7 i {
+  background-position: -372px 0px;
+}
+
+.list ul li .jlt8 {
+  color: #af70d3;
+}
+
+.list ul li .jlt8 i {
+  background-position: -372px -124px;
+}
+
+.tuijian {
+  width: 100%;
+  height: 0.92593rem;
+  background-color: #f8f8f8;
+}
+
+.tuijian h3 {
+  color: #999;
+  line-height: 0.92593rem;
+  text-align: center;
+  font-size: 0.37037rem;
+}
+
+.wenzhang {
+  position: relative;
+  display: flex;
+  padding: 0.37037rem 0.37037rem 0.37037rem 0.37037rem;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.00926rem solid #999;
+}
+
+.wenzhang a .wenzi {
+  display: flex;
+  font-size: 0.55556rem;
+  color: #111;
+}
+
+.wenzhang a .wenzi .wenzi-t {
+  padding-bottom: 0.37037rem;
+  padding-right: 1.38889rem;
+  line-height: 0.74074rem;
+}
+
+.wenzhang a .wenzi .fengshou {
+  position: absolute;
+  top: 0.46296rem;
+  right: 0px;
+  vertical-align: middle;
+}
+
+.wenzhang a .wenzi .fengshou img {
+  height: 0.55556rem;
+}
+
+.wenzhang a .wenzi2 {
+  display: flex;
+}
+
+.wenzhang a .wenzi2 .leftimg img {
+  width: 3.44444rem;
+  height: 2.37037rem;
+}
+
+.wenzhang a .wenzi2 .shijian {
+  padding: 0.18519rem 0rem 0rem 0.37037rem;
+  color: #999;
+  font-size: 0.37037rem;
+  line-height: 0.46296rem;
+}
+
+.wenzhang a .wenzi2 .shijian .liulan {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.27778rem;
+  padding-right: 0.18519rem;
+  align-items: center;
+}
+
+.wenzhang a .wenzi2 .shijian .liulan img {
+  border-radius: 50%;
+  padding-left: 0.09259rem;
+}
+
+.wenzhang a .wenzi2 .shijian .liulan-r span {
+  font-size: 0.41667rem;
+  padding: 0.09259rem 0.18519rem;
+  color: #30d2bf;
+  border: 2px solid #30d2bf;
+  border-radius: 0.0463rem;
+}
+
+.wenzhang a .wenzi2 .shijian .liulan-r .gonglue {
+  font-size: 0.41667rem;
+  padding: 0.09259rem 0.18519rem;
+  color: #f63c3c;
+  border: 2px solid #f63c3c;
+  border-radius: 0.0463rem;
+}
